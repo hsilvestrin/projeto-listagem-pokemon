@@ -9,10 +9,10 @@ body.classList.toggle("modo-escuro")
 
     if (modoEscuroAtivo) {
        // body.classList.remove("modo-escuro") .TOGGLE ALTERNA NAO PRECISA DISSO
-        imagemBotaoTrocaDeTema.setAttribute("src", "./../imagens/sun.png")
+        imagemBotaoTrocaDeTema.setAttribute("src", "../imagens/sun.png")
     } else {
        // body.classList.add("modo-escuro")
-        imagemBotaoTrocaDeTema.setAttribute("src", "./../imagens/moon.png")
+        imagemBotaoTrocaDeTema.setAttribute("src", "../imagens/moon.png")
     } });
 
 
